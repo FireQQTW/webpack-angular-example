@@ -1,0 +1,16 @@
+//- index.html
+
+extends layout/defaultLayout.jade
+include component/list.jade
+
+block content
+  .main.container
+    .ui.grid
+      .ten.wide.column
+        .oneTag.col-md-12(ng-controller="ctroe").
+          測試
+      .six.wide.column
+        .ui.input
+          input(type='text', placeholder='Search...')
+        .ui.button Follow
+  

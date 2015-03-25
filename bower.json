@@ -1,0 +1,32 @@
+{
+  "name": "fireqq",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FireQQTW/FireQQTW.github.io",
+  "authors": [
+    "Derek <azraelxuan927@gmail.com>"
+  ],
+  "description": "go",
+  "main": "bower",
+  "keywords": [
+    "yo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3"
+  },
+  "overrides": {
+    "bootstrap": {
+      "dependencies": []
+    },
+    "Semantic-UI": {
+      "dependencies": []
+    }
+  }
+}

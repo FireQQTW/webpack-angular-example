@@ -1,0 +1,14 @@
+//- layout.jade
+
+doctype html
+html(lang="en")
+  head
+    title 測試網頁
+    meta(charset="UTF-8")
+    <!-- build:css css/combined.css -->
+    <!-- endbuild -->
+    <!-- build:js css/combined.js -->
+    script(src="/assets/javascript/all.bundle.js")
+    <!-- endbuild -->
+  body(ng-app="myApp")
+    block content
